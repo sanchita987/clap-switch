@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <h2>Online booking of clap switch</h2>
+    <style>
+        body {
+            background-color: #87bdf3;
+            font-family: Verdana;
+            text-align:left;
+        }
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 20px 20px 20px 20px auto;
+            padding: 20px 20px 50px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .fontcontrol{
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        .formcontrol label {
+            display: block;
+            margin-bottom: 10px;
+            #comment
+            
+    </style>
+</head>
+<body>
+    <form id="form" action="anotherpage.html">
+        <div class="fontcontrol">
+            <label for="name" id="label-name">
+                Fullname
+            </label>
+            <input type="text" id="name" placeholder="Firstname" />
+            <input type="text" id="name" placeholder="Lastname" />
+        </div>
+        <div class="fontcontrol">
+            <label for="name" id="label-name">
+            Contact Number
+            </label>
+            <input type="number" id="Contact number" placeholder="986457777" />
+            </div>
+            <div class="fontcontrol"> 
+            <label for="Email" id="Email">
+            Email
+            </label>
+            <input type="email" id="email" placeholder="Example@gmail.com" />
+        </div>
+        <div class="fontcontrol">
+            <label>
+            Delievery Address
+            </label><br>
+            <label for="option1">
+            <input type="radio" id="option1" name="recommed">Kathmandu
+            </label><br>
+            <label for="option2">
+            <input type="radio" id="option2" name="recommed">Bhaktapur
+            </label><br>
+            <label for="option3">
+            <input type="radio" id="option3"name="recommed">Lalitpur
+            </label><br>
+        </div>
+        <div class="fontcontrol">
+            <label> Delievery date and time</label>
+            <input type="datetime-local">
+        </div>
+        <div class="fontcontrol">
+        <label>
+            Please select your orders below
+        </label><br>
+        <label for="inp-1">
+            <input type="checkbox" name="inp">Dark sensor using 2 transistors</label><br>
+        <label for="inp-2">
+            <input type="checkbox" name="inp"> Monostable mode of 555 timer</label><br>
+        <label for="inp-3">
+            <input type="checkbox" name="inp">Toggle switch using 555 timer</label><br>
+        </div>
+<div class="fontcontrol">
+    <label>
+        If you have any additional notes about this order, please write here:
+    </label><br>
+   <textarea name="comment" id="comment" placeholder="Enter your comment here">
+ </textarea>
+</div>
+<button type="submit" value="submit">
+    Submit
+</button>
+    </form>
+</body>
+</html>
